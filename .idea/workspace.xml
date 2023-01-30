@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="103eb66d-0d0c-4295-9c5e-c03c4b885096" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../firstRuby" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2301.md" beforeDir="false" afterPath="$PROJECT_DIR$/2301.md" afterDir="false" />
     </list>
@@ -42,7 +41,8 @@
       <updated>1674825375548</updated>
       <workItem from="1674825376657" duration="17000" />
       <workItem from="1674825660815" duration="38000" />
-      <workItem from="1674999617700" duration="204000" />
+      <workItem from="1674999617700" duration="263000" />
+      <workItem from="1675078404180" duration="50000" />
     </task>
     <servers />
   </component>
