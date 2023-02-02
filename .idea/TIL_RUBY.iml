@@ -11,5 +11,8 @@
     </content>
     <orderEntry type="jdk" jdkName="ruby-2.6.10-p210" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.21.0, ruby-2.6.10-p210) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, ruby-2.6.10-p210) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.6.0, ruby-2.6.10-p210) [gem]" level="application" />
   </component>
 </module>
