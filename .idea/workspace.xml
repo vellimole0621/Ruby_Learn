@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="103eb66d-0d0c-4295-9c5e-c03c4b885096" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TIL_RUBY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TIL_RUBY.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RubyFile/first.rb" beforeDir="false" afterPath="$PROJECT_DIR$/RubyFile/first.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TIL/2301.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/2301.md" afterDir="false" />
@@ -55,7 +54,7 @@
       <workItem from="1675078404180" duration="649000" />
       <workItem from="1675165018492" duration="2937000" />
       <workItem from="1675247967195" duration="890000" />
-      <workItem from="1675305945720" duration="1997000" />
+      <workItem from="1675305945720" duration="5551000" />
     </task>
     <servers />
   </component>
@@ -63,6 +62,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TIL_RUBY@first.rcov" NAME="first Coverage Results" MODIFIED="1675307334142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
+    <SUITE FILE_PATH="coverage/TIL_RUBY@first.rcov" NAME="first Coverage Results" MODIFIED="1675311131468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
   </component>
 </project>
