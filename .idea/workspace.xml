@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="103eb66d-0d0c-4295-9c5e-c03c4b885096" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RubyFile/first.rb" beforeDir="false" afterPath="$PROJECT_DIR$/RubyFile/first.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2301.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/2301.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIL/2301.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/khk36/RubymineProjects/TIL_RUBY/TIL/Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +39,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TIL/Algorithm" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
@@ -54,7 +59,11 @@
       <workItem from="1675078404180" duration="649000" />
       <workItem from="1675165018492" duration="2937000" />
       <workItem from="1675247967195" duration="890000" />
-      <workItem from="1675305945720" duration="5551000" />
+      <workItem from="1675305945720" duration="5597000" />
+      <workItem from="1675413054476" duration="913000" />
+      <workItem from="1675413972693" duration="25000" />
+      <workItem from="1675590133165" duration="426000" />
+      <workItem from="1675682525882" duration="1634000" />
     </task>
     <servers />
   </component>
@@ -62,6 +71,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TIL_RUBY@230205.rcov" NAME="230205 Coverage Results" MODIFIED="1675590270736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
     <SUITE FILE_PATH="coverage/TIL_RUBY@first.rcov" NAME="first Coverage Results" MODIFIED="1675311131468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
+    <SUITE FILE_PATH="coverage/TIL_RUBY@Bj100.rcov" NAME="Bj100 Coverage Results" MODIFIED="1675413570216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
+    <SUITE FILE_PATH="coverage/TIL_RUBY@230206.rcov" NAME="230206 Coverage Results" MODIFIED="1675684077646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TIL_RUBY" />
   </component>
 </project>
