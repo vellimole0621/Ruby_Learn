@@ -1,7 +1,5 @@
 What I learned today about Ruby!
 
-#230127
-
 class > 객체 형태 지정에서 사용, 데이터의 표현 메소드 등을 담고 있는 일종의 설계도. 각각의 데이터 메소드는 클래스 맴버가 됨
 
 형식
@@ -10,12 +8,9 @@ class Box
 #code
 end
 
-#230128
-
 Rails on Ruby
 : 노드 js 처럼 서버를 쉽게 구성하는 것 같음 / 전반적인 각 폴더 별 역할과 연결 흐름에 대해 공부할 필요
 
-#230129
 
 입출력
 
@@ -29,12 +24,9 @@ puts
 print
 : 계속 출력(줄 바꿈 없음)
 
-#230130
 
 p 
 : "" 가 붙어서 출력됨
-
-＃230131
 
 変数（へんすう）
 :　소문자로 작성
@@ -84,6 +76,11 @@ p colors[0...2] // 범위 인덱스 0부터 2 직전까지 ["red", "blue"]
 p colors[5] // nil 없음
 
 *배열 메소드 sort 재정렬(알파벳 순) / size 크기
+* reverse 반대로 배열
+* include?(~) 배열에 값 포함 여부 확인
+* shuffle 배열 안 값 섞음
+* empty? 빈 배열인지 확인
+* (0..25).to_a // [0,1,2,3,..,25] 배열 만듦
 
 배열의 값을 입력하는 방법
 :
@@ -92,7 +89,10 @@ colors[1..2] = ["white", "black"] // 범위 연결
 colors.push("gold") // 끝에 연결
 colors << "silver" // 끝에 연결2
 
-#230201
+* 메소드 pop 가장 마지막 값을 뽑아 출력, 배열의 그 값은 삭제됨
+* 메소드 shift 가장 앞에 값을 뽑아 출력, 배열의 그 값은 삭제됨
+* 메소드 uniq 배열 내 중복된 값을 삭제함
+* 메소드 join 문자열을 하나로 모와서 출력, if s.join(' ') 이렇게 출력하면 문자열간 ' ' 공백을 두고 출력함
 
 해쉬(ハッシュ)
 ：
@@ -157,6 +157,18 @@ Ex) p printf("name: %10s\n", "taguchi") // "name:   taguchi" 개행 표시X
 p sprintf("name: %10s\n", "taguchi") // "name:   taguchi\n" 개행 표시O
 p sprintf("id: %05d, rate: %10.2f\n", 355, 3.284)
 
+* scores.each { |k, v| puts "#{k}, #{v}"} // luke, 100 k는 key v는 value를 의미한다
+
+each 
+> 배열의 인수 각각을 꺼냄
+Ex) numbers = [1, 2, 3, 4, 5] 
+> numbers.each { |number| puts number} // 1 2 3 4 5
+Ex ) colors ['red', 'green', 'blue'] 
+> colors.each do |color|
+>   puts color
+> end
+
+
 if
 # &&(and) ||(or) !(not)
 
@@ -216,6 +228,16 @@ end
 
 10.times { |i| puts "#{i}: hello"}
 
+upto 
+=> 10.upto(14) { |n| puts n} // 10 11 12 13 14
+
+downto
+=> 14.downto(10) { |n| puts n} // 14 13 12 11 10
+
+step
+=> 1.step(10,2) { |n| puts n} // 1 3 5 7 9 /// 1이 10이 될 때까지 +2 반복
+=> 10.step(1,-2) { |n| puts n} // 10 8 6 4 2 /// 10이 1이 될 때까지 -2 반복 
+
 for
 
 for i in 15..20 do
@@ -257,6 +279,7 @@ end
 무한 루프 막기 위해 break 
 해당 조건에서 작동하지 않고 스킵 하기 위해 next 사용
 
+# 기본 i는 0으로 설정
 10.times do |i|
     if i == 7 then
         break // 6에서 멈추게 함
@@ -270,6 +293,8 @@ end
     end
     p i
 end
+
+10.times { |i| puts "#{i}: Hello!"}
 
 메소드 メソッド
 
